@@ -1,0 +1,41 @@
+body {
+  font-size: 16px;
+  background-color:#e8f7ff;
+  word-break : break-all;
+}
+
+button {
+  font-size: 16px;
+  background-color: #42A5F5;
+  color:white;
+}
+
+.ch_block {
+    display: block;
+}
+
+.add_input{
+    width:100%;
+    margin-right: 10px;
+}
+
+#add_btn{
+    margin-top: 10px;
+    float:right;
+}
+
+#show_add_btn{
+    float:right;
+}
+
+.del_btn{
+    background-color: red;
+    color:white;
+    float:right;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear:both;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="popup.css" rel="stylesheet">
+  <script src="../../vendor/jquery-3.2.1.min.js"></script>
+  <script src="../storage.js"></script>
+  <script src="../i18n.js"></script>
+  <script src="../tools.js"></script>
+  <script src="first_set.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+    <button trs-text="add" id="show_add_btn"></button>
+    <div style="clear:both;"></div>
+    <div style="display:none;" id="add_div">
+        <p trs-text="dir_path_exp"></p>
+        <label trs-text="label" for="add_label_input"></label>
+        <input id="add_label_input" class="ch_block add_input"/>
+        <label trs-text="dir_path" for="add_dir_path"></label>
+        <input id="add_dir_path" class="ch_block add_input"/>
+        <button trs-text="add" id="add_btn"></button>
+        <div style="clear:both;"></div>
+    </div>
+    <hr />
+    <!--first_set.jsで表示内容を追加 -->
+    <div id="store_list"></div>
+
+
+</body>
